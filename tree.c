@@ -46,7 +46,7 @@ void Inorder(struct Node *p)
     if(p)
     {
         Inorder(p->lchild);
-        printf("%d", p->data);
+        printf("%d ", p->data);
         Inorder(p->rchild);
     }
 }
